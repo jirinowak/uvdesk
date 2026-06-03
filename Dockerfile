@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.0
 LABEL maintainer="support@uvdesk.com"
 
 ENV GOSU_VERSION=1.11
