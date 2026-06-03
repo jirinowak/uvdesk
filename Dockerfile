@@ -2,6 +2,7 @@ FROM ubuntu:24.04
 LABEL maintainer="support@uvdesk.com"
 
 ENV GOSU_VERSION=1.11
+ENV COMPOSER_ALLOW_SUPERUSER=1
 
 # Install base supplementary packages
 RUN apt-get update && \
